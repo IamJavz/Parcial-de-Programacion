@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda Free to Play</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header de la página -->
+    <header>
+      <h1>Bienvenido a la Tienda Free to Play</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#games">Juegos</a></li>
+          <li><a href="#register">Registro de Desarrolladores</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Página de Inicio -->
+    <section id="home">
+      <h2>Lo Nuevo en la Tienda</h2>
+      <div class="updates">
+        <div class="game">
+          <img src="path/to/image1.jpg" alt="Throne and Liberty" />
+          <p>Throne and Liberty - Free to Play</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lista de Juegos -->
+    <section id="games">
+      <h2>Modos de Juegos</h2>
+      <div class="filters">
+        <button>Todos</button>
+        <button>Free to Play</button>
+        <button>Acción</button>
+        <button>Sport</button>
+        <button>Adventure</button>
+        <button>Terror</button>
+        <button>Modo Camapaña</button>
+      </div>
+
+      <div class="game-list">
+        <div class="game-item">
+          <img src="path/to/game1.jpg" alt="Game 1" />
+          <p>Game 1</p>
+          <span>⭐</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registro de Desarrolladores -->
+    <section id="register">
+      <h2>Registro de Desarrolladores</h2>
+      <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" required />
+        <label for="email">Correo:</label>
+        <input type="email" id="email" required />
+        <label for="game">Juego:</label>
+        <input type="text" id="game" required />
+        <label for="link">Enlace al juego:</label>
+        <input type="url" id="link" required />
+        <button type="submit">Registrar</button>
+      </form>
+    </section>
+  </body>
+</html>
